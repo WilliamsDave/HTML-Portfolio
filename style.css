@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -47,7 +48,7 @@ body{
 #landing i{
     margin-top: 35vh;
     font-size: 40px;
-    color: black;
+    color: black
 }
 header{
     width: 100%;
@@ -67,11 +68,11 @@ header.sticky{
 .logo{
     color: #fff;
     font-size: 30px;
-    font-weight: 1000px;
+    font-weight: 900;
     text-transform: uppercase;
-    letter-spacing: 0px;
-    font-family: "Playwrite US Trad", serif;
-
+    letter-spacing: -5px;
+    font-family: "Playwrite NG Modern", serif;
+    text-shadow: rgb(0, 0, 0) 2px 2px 5px;
 }
 header nav{
     display: flex;
